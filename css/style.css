@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	font-family: "Itim", cursive;
+	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Quicksand", sans-serif;
+}
+
+.carTable {
+	width: 100vw;
+}
+
+.carTable,
+.carTable * {
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+.carTable th {
+	color: white;
+	background-color: black;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+th:first-child {
+	text-align: center;
+}
+
+.carTable td {
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+
+.carTable tr:nth-child(odd) {
+	background-color: rgb(158, 157, 157);
+}
+
+.ikonica {
+	padding: 0 5px;
+	margin: 0;
+}
